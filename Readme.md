@@ -23,3 +23,4 @@ I learnt about:
 - Run gulp to compile scss files
 - Use Live Server extension on VS Code to run a development server for your html files
 
+# samobi
