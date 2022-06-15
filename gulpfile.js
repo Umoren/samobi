@@ -34,14 +34,14 @@ function git(done) {
 // Watch for netlify deployment
 function netlify(done) {
   return new Promise(function(resolve, reject) {
-      console.log(execSync('netlify watch').toString());
+      console.log(execSync('sudo netlify watch').toString());
       resolve();
   });
 }
 
 // Preview Deployment
 function netlifyOpen(done) {
-  return exec('netlify open:site');
+  return exec('sudo netlify open:site');
   done();
 }
 
